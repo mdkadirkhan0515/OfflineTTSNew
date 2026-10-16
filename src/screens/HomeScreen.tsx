@@ -107,7 +107,7 @@ const EmptyState: React.FC<{ isDark: boolean }> = ({ isDark }) => {
       <Text style={[styles.emptySubtitle, { color: isDark ? '#94A3B8' : '#64748B' }]}>Type a message below to create your first TTS card</Text>
       {/* Premium illustration from earlier */}
       <Image
-        source={require('../../assets/images/logo.png')}
+        source={require('../assets/images/logo.png')}
         style={[styles.emptyIllustration, { opacity: isDark ? 0.8 : 1 }]}
         resizeMode="contain"
       />
